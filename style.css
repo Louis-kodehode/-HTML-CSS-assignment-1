@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_right {
+  text-align: right;
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+/* Freely place box. Just adjust different values and watch it move */
+.nav-box {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+.t-rex {
+  border-style: solid;
+  position: sticky;
+  width: 700px;
+  height: auto;
+  float: right;
+  margin-top: 70px;
+}
+
+.intro_text {
+  margin: 67px 50px;
+}
+
+.Intro_dino {
+  margin: 5px 50px;
+}
+
+.big_button {
+  margin-left: 800px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* dont understand why none of this worked */
+  height: 15vh;
+}
+
+#title {
+  font-family: "Courier New", Courier, monospace;
+}
