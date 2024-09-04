@@ -11,6 +11,9 @@ h1 {
   color: blue;
   text-align: center;
 }
+h2 {
+  font-size: 50px;
+}
 /* Freely place box. Just adjust different values and watch it move */
 .nav-box {
   position: absolute;
